@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TwoDimensionCode</class>
+ <widget class="QWidget" name="TwoDimensionCode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TwoDimensionCode</string>
+  </property>
+  <widget class="QLineEdit" name="QRcode_content_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>559</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="generate_QRcode_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>560</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="QRcode_content_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>491</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>559</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
